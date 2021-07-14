@@ -1,0 +1,74 @@
+/* 
+Name: James Smith
+Date: 7/13/2021
+CSD 340
+bioSite
+*/
+html {
+    background-color: #FFFFC2;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+hr {
+    border-color: #FFC5CB;
+}
+
+h1, h2 {
+    background-color: #72FCEF;
+    color: black;
+    padding: 10px;
+}
+
+h3 {
+    background-color: #95CCA2;
+    text-align: center;
+}
+
+#footer {
+    position: relative;
+    bottom:0;
+    width:100%;
+    padding-top: 20px;
+}
+
+
+#navbar {
+    background-color: #72FCEF;
+    border-top: solid 15px #FFC5CB;
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#navbar a {
+    color: black;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #FFC5CB;
+    color: white;
+}
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+  }
