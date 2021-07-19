@@ -1,6 +1,6 @@
 /* 
 Name: James Smith
-Date: 7/13/2021
+Date: 7/18/2021
 CSD 340
 bioSite
 */
@@ -71,4 +71,10 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid black;
+  }
+
+figcaption {
+    display: block;
+    text-align: center;
+    padding: 10px;
   }
