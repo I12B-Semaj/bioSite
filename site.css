@@ -1,6 +1,6 @@
 /* 
 Name: James Smith
-Date: 7/18/2021
+Date: 7/27/2021
 CSD 340
 bioSite
 */
@@ -21,7 +21,7 @@ hr {
     border-color: #FFC5CB;
 }
 
-h1, h2 {
+h2 {
     background-color: #72FCEF;
     color: black;
     padding: 10px;
@@ -32,53 +32,101 @@ h3 {
     text-align: center;
 }
 
-#footer {
-    position: relative;
-    bottom:0;
-    width:100%;
-    padding-top: 20px;
-}
-
-
-#navbar {
-    background-color: #72FCEF;
-    border-top: solid 15px #FFC5CB;
+header {
     overflow: hidden;
     position: relative;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+    top:0;
+    width:100%;
+    /*padding-bottom: 10px;*/
+    display: inline-block;
+    background-color: #72FCEF;
+    height: 80px;
 }
 
-#navbar a {
+header h1 {
+    float: left;
+    color: black;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+#head-navbar {
+    float: right;
+    height: 100%;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#head-navbar a {
     color: black;
     text-align: center;
     position: relative;
     display: inline-block;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
+    height: 100%;
 }
 
-#navbar a:hover {
-    background-color: #FFC5CB;
+#head-navbar a:hover {
+    background-image: linear-gradient(#72FCEF, #FFC5CB, #72FCEF);
     color: white;
 }
 
-#navbar a::before {
+#footer {
+    overflow: hidden;
+    position: relative;
+    bottom:0;
+    width:100%;
+    padding-top: 10px;
+    display: inline-block;
+    background-color: #72FCEF;
+    border-top: solid 15px #FFC5CB;
+    height: auto;
+}
+
+
+#foot-navbar {
+    width: 90%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+#foot-navbar a {
+    color: black;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding: 0 16px;
+}
+
+#foot-navbar a:hover {
+    color: white;
+}
+
+#foot-navbar a::before {
     content: " / ";
     position: absolute;
     right: 0;
     top: 0; 
-    padding: 14px 0;
-    margin-left: 3px;
     padding-left: 3px;
     background-color: #72FCEF;
+    color: black;
 }
 
-#navbar a:last-child::before {
+#foot-navbar a:last-child::before {
     display: none;
+}
+
+#footer p {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-right: 10px;
 }
 
 .portrait {
